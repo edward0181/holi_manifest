@@ -1,7 +1,7 @@
 # Sync
 
 ```
-repo init -u https://github.com/chrisl7/bengal_manifest -b LA.UM.9.15.2.r1
+repo init -u ssh://git@github.com/chrisl7/bengal_manifest -b LA.UM.9.15.2.r1
 ```
 
 ```
