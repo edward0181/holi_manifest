@@ -10,5 +10,5 @@ repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags --force-sync
 
 # Build
 ```
- . build/envsetup.sh && lunch bengal-userdebug && ./build.sh -j$(nproc --all) | tee log.xt
+ . build/envsetup.sh && lunch bengal-user && ./build.sh -j$(nproc --all) | tee log.xt
 ```
