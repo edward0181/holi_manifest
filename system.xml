@@ -42,7 +42,7 @@
   <project name="platform/art" path="art" revision="76b2c6e4992075c027f50dd4dd3cf7ba34594f57" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/bionic" path="bionic" revision="fdcb8292c2f5b2630e3cc63b895b7576a56ea12f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="d99f9cabc15795523673643358a58c8aecba7e0a" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/build_repo" path="build/make" revision="a4f4123ea4f25e9effd754872a0ed2c7ef5e757f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf">
+  <project name="platform/build_repo" path="build/make" revision="a8a21cea53cc2af9607a1a3b5c0c92031a60cc9b" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -418,8 +418,8 @@
   <project name="platform/external/zlib" path="external/zlib" revision="a9986ef5f99f100936e276d8e2b9391de259158e" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/external/zopfli" path="external/zopfli" revision="1ebb510a3cc2283fc282aa4ebf9f521b32c61fcf" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/external/zxing" path="external/zxing" revision="ca46ddb16b366def72de987604acb4bc3660ada2" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/frameworks/av" path="frameworks/av" revision="6214f0154855219178bb820cb990d892f9ca1028" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/frameworks/base" path="frameworks/base" revision="5124dd8bfac607ebeda2a5aa9f1e1f44d8a66223" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="339c4b51a2bc9beef8560b23442dcbf6d6744e9a" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="bc5e29aa253be955790c701b70dd1920526b0a5d" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="2eceab5ec3ac103bd82c085f8e64204bcd6d8833" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="97459bde28b2f1aac96a52ac1c1ba38ce492bca0" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="d790a4e1742b55ab256919b6fca69611e8414bde" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
@@ -457,7 +457,7 @@
   <project name="platform/hardware/google/camera" path="hardware/google/camera" revision="7936e56d0af906b1d3d341e44b6c2bd30c52e4ed" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys"/>
   <project name="platform/hardware/google/easel" path="hardware/google/easel" revision="72a80060d8d427a156fa510a2e2de4cd9494fa6a" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,easel,pdk,qc-common-sys"/>
   <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces" revision="e792296bc3a4fc4f6b8fb362a542d2f13ac48868" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys"/>
-  <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="84e4eff9952bea2647153d2e4d4b1a8a68362fca" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
+  <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="f2eaf0b61624ac87c8da2175344405fcbd398a63" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="bca82765625726984375eb13765eb4cd86f31789" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="c065737a534a78d30ae1e351e9b6b9adc0d8b92d" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="827b9d96dede09b9fb64687a63b8337dc7b17fd9" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
@@ -563,7 +563,7 @@
   <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="1343683ef25adeb36158e3bf94b3eb4a96522002" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
   <project name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="70e9bb165e01fd2e31338e092562243010ca924d" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-fs,qc-common-sys"/>
   <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="8e99d81e2f59bb7b9071ee64a647de1d72285f88" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
-  <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="103d432b1a71c8f63176114c340a22f696516628" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
+  <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="734171e9d8c89ad5be85c7c1d4824af964c061f2" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="ad20a9761e371d8f22ca5a719599d72ba2c8392d" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="1cd6619b9d64e78f737a79bc8e795558918a5fa5" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-fs,qc-common-sys-intf"/>
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="877efddc9209fdee7bbeae0746ddae3722b4f9aa" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk-cw-fs,pdk-fs,qc-common-sys-intf"/>
@@ -632,12 +632,12 @@
   <project name="platform/system/apex" path="system/apex" revision="5535f0c39f02927a64010f7e94a0d056e6447c9b" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/bpf" path="system/bpf" revision="d0a7bc9865f16e52628c23610ec778155f7718af" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/bpfprogs" path="system/bpfprogs" revision="9b6aa394eb71f23c144939676768afa044c5e2f1" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/system/bt" path="system/bt" revision="e3a90fe660b5fbe20e605b9cb70261a5410332a1" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
+  <project name="platform/system/bt" path="system/bt" revision="90c600b92247077dc058f08d4445d4d76a7d8869" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/ca-certificates" path="system/ca-certificates" revision="58278e2eac84fa361609dfcae1ed03e238ccd4e3" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/chre" path="system/chre" revision="90c1df477cdef3375ed8942342f65a68d7f34244" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="b2ea0e54c0c7cc1572dfd9354e898cf86d20db5f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="f4bec7a17a1af81c48079626c0133843c79ac2ee" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys"/>
-  <project name="platform/system/core" path="system/core" revision="8316300bfd0a81933c17679fe71f5489341b7507" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
+  <project name="platform/system/core" path="system/core" revision="d7170f69a3205e2b907720d05bb9205f013467f0" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/extras" path="system/extras" revision="4d6c64fd143300c70104e8a41c39a3b0a81a8ade" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/gatekeeper" path="system/gatekeeper" revision="259f031d4314c9870dc9a1cf89f67082afc1fa9b" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/system/gsid" path="system/gsid" revision="9490cf003c15ad63d434cd727d78509e45d8cfda" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
@@ -747,7 +747,7 @@
     <linkfile src="config/display-interfaces-product.mk" dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" revision="9ff587035fddde3d21724b61f9807f347d69e03a" upstream="refs/heads/data-sys.lnx.6.0.r2-rel" groups="qc-common-sys-intf,vsdk"/>
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="2d8e4f83402c988a9d8b0058f57a981e4c282eba" upstream="refs/heads/fm.lnx.6.0.r3-rel" groups="qc-common-sys-intf,vsdk"/>
+  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="acdac869a3c35b902f5adcb4c3e30a8e2dd8bce2" upstream="refs/heads/fm.lnx.6.0.r3-rel" groups="qc-common-sys-intf,vsdk"/>
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" revision="48766adeab073d689f0edefbf5ac969d7fac80a2" upstream="refs/heads/android-vendor-hals.lnx.1.1.r53-rel" groups="qc-common-sys-intf,vsdk"/>
   <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" revision="d49b9baabdfd1db8bb4e949560effff2710fd464" upstream="refs/heads/bt.lnx.6.0.r4-rel" groups="qc-common-sys-intf,non_vsdk"/>
   <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt" revision="d0ef261d7a4ac5d7032ddf07b7620bd7847072df" upstream="refs/heads/bt.lnx.6.0.r4-rel" groups="qc-common-sys-intf,vsdk"/>
