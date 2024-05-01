@@ -8,15 +8,9 @@
           sync-tags="false"
           review="codelinaro.org"/>
 
-  <remote name="holi-edward0181"
-          fetch="https://github.com/edward0181"
-          revision="LA.UM.9.14.1.r1" />
-
   <default remote="clo"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
-  <include name="obsolete.xml"/>
-  <include name="holi-edward0181.xml"/>
 
 </manifest>
