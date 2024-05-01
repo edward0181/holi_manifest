@@ -42,7 +42,7 @@
   <project name="platform/art" path="art" revision="76b2c6e4992075c027f50dd4dd3cf7ba34594f57" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/bionic" path="bionic" revision="fdcb8292c2f5b2630e3cc63b895b7576a56ea12f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="d99f9cabc15795523673643358a58c8aecba7e0a" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/build_repo" path="build/make" revision="a8a21cea53cc2af9607a1a3b5c0c92031a60cc9b" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf">
+  <project name="platform/build_repo" path="build/make" revision="b048d5a4d2b8fc8f488b88cbad17bc9c06bb66df" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -457,7 +457,7 @@
   <project name="platform/hardware/google/camera" path="hardware/google/camera" revision="7936e56d0af906b1d3d341e44b6c2bd30c52e4ed" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys"/>
   <project name="platform/hardware/google/easel" path="hardware/google/easel" revision="72a80060d8d427a156fa510a2e2de4cd9494fa6a" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,easel,pdk,qc-common-sys"/>
   <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces" revision="e792296bc3a4fc4f6b8fb362a542d2f13ac48868" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys"/>
-  <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="f2eaf0b61624ac87c8da2175344405fcbd398a63" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
+  <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="5ef047f8e99a779816aea06b87a1fc11393dd4e5" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="bca82765625726984375eb13765eb4cd86f31789" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="c065737a534a78d30ae1e351e9b6b9adc0d8b92d" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="827b9d96dede09b9fb64687a63b8337dc7b17fd9" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
